@@ -1,0 +1,39 @@
+body{
+  background-color: rgb(210, 162, 30);
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(163, 211, 108);
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  box-shadow: 5px 5px 5px rgb(59, 58, 58);
+}
+
+h1{
+  font-size: 80px;
+}
+
+.box-fizz{
+ background-color: rgba(227, 4, 4, 0.983);
+}
+
+.box-buzz{
+  background-color: rgb(233, 114, 30);
+}
+
+.box-fizzbuzz{
+  background-color: rgb(255, 255, 255);
+  color: rgb(160, 14, 14);
+  border-radius: 50%;
+}
+
+.box-fizzbuzz:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
